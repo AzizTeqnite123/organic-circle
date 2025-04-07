@@ -1,0 +1,803 @@
+/* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    color: #6e6e6e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1b3854;
+}
+
+/* GLOBAL */
+
+/* QualityDetBoxMain */
+
+.QualityDetBoxMain {
+    margin: 80px 0;
+    background: #F6F7F8;
+}
+
+.QltyDetHldr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: space-between;
+    gap: 30px;
+    padding: 30px 0;
+    max-width: 780px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.QltyDetBx {
+    display: block;
+    width: fit-content;
+}
+
+.QltyDetBx img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.QltyDetBx h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px !important;
+    color: #1b3854;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* QualityDetBoxMain */
+
+/* DoubleImgDetMain */
+
+.DoubleImgDetMain {
+    margin: 80px 0;
+}
+
+.headingHldrMainSite {
+    margin-bottom: 40px;
+}
+
+.headingHldrMainSite h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 0px !important;
+    text-align: center;
+}
+
+.headingHldrMainSite p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 808px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dbleImgMnHldrPr {
+    max-width: 996px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.dbleImgHldr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.dbleImgHldr img {
+    width: 100%;
+    height: 491px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.dbleImgCnt {
+    max-width: 805px;
+    margin: 30px auto 0;
+    width: 100%;
+}
+
+.dbleImgCnt h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.dbleImgCnt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px !important;
+    text-align: center;
+    max-width: 695px;
+    margin: 10px auto 0;
+}
+
+/* DoubleImgDetMain */
+
+/* ImageWithContentMain */
+
+.ImageWithContentMain {
+    margin: 80px 0;
+}
+
+.ImageWithContentMain.LightBgAdd,
+.ImageWithContentMain.DarkBgAdd {
+    padding: 100px 0;
+}
+
+.ImageWithContentMain.LightBgAdd .ImgWthCntContent h2,
+.ImageWithContentMain.LightBgAdd .ImgWthCntContent .headTopTxt {
+    color: #1B3854;
+}
+
+.ImageWithContentMain.LightBgAdd .ImgWthCntContent p {
+    color: #6e6e6e;
+}
+
+.ImageWithContentMain.DarkBgAdd {
+    background: #707988;
+}
+
+.ImageWithContentMain.LightBgAdd {
+    background: #F6F7F8;
+}
+
+.imageWthCntHldr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 24px;
+}
+
+.ImgWthCntContent {
+    order: 1;
+}
+
+.ImgWthCntContent ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ImgWthCntContent ul li {
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1b3854;
+    position: relative;
+}
+
+.ImgWthCntContent ul li::after {
+    content: '';
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/small-check-ic.svg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.ImgWthCntContent .headTopTxt {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.ImgWthCntContent h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 0px !important;
+    color: #fff;
+    max-width: 88%;
+}
+
+.ImgWthCntContent p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px !important;
+    color: #fff;
+}
+
+.ImageWithContentMain.DarkBgAdd .mainSiteBtn :is(a, button, input[type=submit]):hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+.mainSiteBtn {
+    margin-top: 60px;
+}
+
+.mainSiteBtn :is(a, button, input[type=submit]) {
+    padding: 12px 30px 12px;
+    border: 1px solid #1b3854;
+    background: #1B3854;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0px !important;
+    color: #fff;
+    border-radius: 100px;
+    display: block;
+    width: fit-content;
+    position: relative;
+    transition: all ease .5s;
+}
+
+.mainSiteBtn :is(a, button, input[type=submit]):hover {
+    background: transparent;
+    color: #1B3854;
+}
+
+.ImgWthCntImage {
+    width: 100%;
+    height: 555px;
+    order: 2;
+}
+
+.ImgWthCntImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.ImageWithContentMain.InvertedColumns .ImgWthCntImage {
+    order: 1;
+}
+
+.ImageWithContentMain.InvertedColumns .ImgWthCntContent {
+    order: 2;
+}
+
+.cstmrBX {
+    padding: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background: #1B3854;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.cstmrBX h4 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.cstmrBX p {
+    color: #fff !important;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.CustmrBxHdlr {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    place-content: space-between;
+    place-items: center;
+}
+
+.qltyLogoHldr {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.qltyLogoHldr img {
+    height: 102px;
+    width: 102px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.ImageWithContentMain .container>.mainSiteBtn a {
+    margin: 10px auto;
+}
+
+.mainSiteBtn p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* ImageWithContentMain */
+
+/* reviewTestiMonialMain */
+
+.reviewTestiMonialMain .swiper {
+    width: 100%;
+}
+
+.reviewTestiMonialMain {
+    margin: 80px 0;
+}
+
+.revBxMn {
+    padding: 30px;
+    border-radius: 20px;
+    background: #F6F7F8;
+}
+
+.revBxTop img {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.revBxTop p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0px !important;
+}
+
+.revBxRtng {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.revBxRtng img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+
+.revBxBtm {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.revBxBtm h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0PX !important;
+}
+
+.revBxBtm img {
+    height: 14px;
+    width: 14px;
+    object-fit: contain;
+}
+
+/* reviewTestiMonialMain */
+
+/* FaqWithImgMain */
+
+.FaqWithImgMain {
+    margin: 80px 0;
+}
+
+.faqWthImgHldr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 996px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.faqWthImgFaq {
+    width: 100%;
+    background: #F6F7F8;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.faqWthImgFaq .accordion-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.faqWthImgFaq .accordion-item:first-child {
+    padding-top: 0 !important;
+}
+
+.faqWthImgFaq .accordion-item:last-child {
+    padding-bottom: 0 !important;
+}
+
+.faqWthImgFaq .accordion-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.faqWthImgFaq .accordion-item-header {
+    padding: 0px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.faqWthImgFaq .accordion-item-header::after {
+    content: "";
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    background-image: url(../img/faqOpenIc.svg);
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 16px !important;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transition: all ease-in-out .3s;
+}
+
+.faqWthImgFaq .accordion-item-header.active::after {
+    content: "";
+    transform: translateY(-50%) rotate(180deg);
+    background-image: url(../img/faqOpenIc.svg);
+}
+
+.faqWthImgFaq .accordion-item-header h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0PX !important;
+}
+
+.faqWthImgFaq .acc-item-head {
+    max-width: 96%;
+    padding-right: 15px;
+}
+
+.faqWthImgFaq .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.faqWthImgFaq .accordion-item-body-content {
+    padding-top: 10px !important;
+}
+
+.faqWthImgFaq .accordion-item-body-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0PX !important;
+    padding-right: 30px;
+}
+
+.faqWthImgFaq .accordion-item-body-content p:not(:first-child) {
+    margin-top: 10px;
+}
+
+.faqWthImgFaq .accordion-item:has(.active) .accordion-item-body {
+    max-height: max-content;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.faqWthImgImage {
+    height: 430px;
+    width: 100%;
+}
+
+.faqWthImgImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* FaqWithImgMain */
+
+/* StepsBetter */
+
+.StepsBetter {
+    margin: 80px 0;
+}
+
+.stpsBetrHldr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.stpBtrBx {
+    position: relative;
+}
+
+.stpBtrImg {
+    width: 100%;
+    height: 328px;
+}
+
+.stpBtrImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.stpBtrCnt {
+    margin-top: 20px;
+    padding: 30px;
+    background: #F6F7F8;
+    border-radius: 20px;
+}
+
+.stpBtrCnt h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.stpBtrCnt h4 span {
+    display: block;
+    font-size: 20px;
+}
+
+.stpBtrCnt p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* StepsBetter */
+
+/* BetterForYou */
+
+.BetterForYou {
+    margin: 80px 0;
+}
+
+.BetterForYou .container .mainSiteBtn a {
+    margin: 0 auto;
+}
+
+.btrFrYuHldr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.btrFrUbx {
+    padding: 30px;
+    border-radius: 20px;
+    background: #F6F7F8;
+}
+
+.btrFrUbx img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.btrFrUbx h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0PX !important;
+    margin-top: 16px;
+}
+
+.btrFrUbx p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+/* BetterForYou */
+
+/* UsVsThem */
+
+.UsVsThem {
+    margin: 80px 0;
+}
+
+.uSvSThemRow {
+    max-width: 996px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.UsVsThemTableMAin {
+    /* overflow: scroll; */
+}
+
+.UsVsThemTableMAin table {
+    border-collapse: collapse;
+}
+
+.UsVsThemTableMAin table thead tr th {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1B3854;
+}
+
+.UsVsThemTableMAin table thead tr th:first-child {
+    width: 50%;
+}
+
+.UsVsThemTableMAin table thead tr th {
+    width: 25%;
+}
+
+.UsVsThemTableMAin table tbody {
+    border: 1px solid #1B3854;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+/* UsVsThem */
+
+/* FAQmain */
+
+.FAQmain {
+    margin: 80px 0;
+}
+
+.faqMnRow {
+    max-width: 996px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.FAQmainFaq {
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.FAQmainFaq .accordion-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.FAQmainFaq .accordion-item:first-child {
+    padding-top: 0 !important;
+}
+
+.FAQmainFaq .accordion-item:last-child {
+    padding-bottom: 0 !important;
+}
+
+.FAQmainFaq .accordion-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.FAQmainFaq .accordion-item-header {
+    padding: 0px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.FAQmainFaq .accordion-item-header::after {
+    content: "";
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    background-image: url(../img/faqOpenIc.svg);
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 16px !important;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transition: all ease-in-out .3s;
+}
+
+.FAQmainFaq .accordion-item-header.active::after {
+    content: "";
+    transform: translateY(-50%) rotate(180deg);
+    background-image: url(../img/faqOpenIc.svg);
+}
+
+.FAQmainFaq .accordion-item-header h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0PX !important;
+}
+
+.FAQmainFaq .acc-item-head {
+    max-width: 96%;
+    padding-right: 15px;
+}
+
+.FAQmainFaq .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.FAQmainFaq .accordion-item-body-content {
+    padding-top: 10px !important;
+}
+
+.FAQmainFaq .accordion-item-body-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0PX !important;
+    padding-right: 30px;
+}
+
+.FAQmainFaq .accordion-item-body-content p:not(:first-child) {
+    margin-top: 10px;
+}
+
+.FAQmainFaq .accordion-item:has(.active) .accordion-item-body {
+    max-height: max-content;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/* FAQmain */
