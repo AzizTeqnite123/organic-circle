@@ -58,6 +58,7 @@ h6 {
 .QltyDetBx {
     display: block;
     width: fit-content;
+    margin: 0 auto;
 }
 
 .QltyDetBx img {
@@ -710,7 +711,6 @@ h6 {
 .FAQmainFaq {
     width: 100%;
     border-radius: 20px;
-    padding: 30px 20px;
 }
 
 .FAQmainFaq .accordion-item {
