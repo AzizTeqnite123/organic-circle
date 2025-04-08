@@ -35,6 +35,17 @@ h6 {
     color: #1b3854;
 }
 
+input,
+button,
+select {
+    font-family: "Manrope", sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Manrope", sans-serif;
+}
+
 /* GLOBAL */
 
 /* QualityDetBoxMain */
@@ -66,12 +77,14 @@ h6 {
     width: 120px;
     border-radius: 50%;
     object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 .QltyDetBx h4 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0px !important;
     color: #1b3854;
     margin-top: 10px;
@@ -146,7 +159,7 @@ h6 {
 .dbleImgCnt p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 21px;
     letter-spacing: 0px !important;
     text-align: center;
     max-width: 695px;
@@ -239,7 +252,7 @@ h6 {
     max-width: 88%;
 }
 
-.ImgWthCntContent p {
+.ImgWthCntContent > p {
     margin-top: 20px;
     font-weight: 400;
     font-size: 16px;
@@ -284,12 +297,27 @@ h6 {
     order: 2;
 }
 
+.ImgWthCntImage.MdmImg {
+    height: 590px;
+}
+
+.ImgWthCntImage.LrgImg {
+    height: 655px;
+}
+
 .ImgWthCntImage img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
+
+.ImgWthCntImage img[src$=".png"],
+.ImgWthCntImage img[src*=".png?"],
+.ImgWthCntImage img[src$=".PNG"] {
+  object-fit: contain;
+}
+
 
 .ImageWithContentMain.InvertedColumns .ImgWthCntImage {
     order: 1;
@@ -316,7 +344,7 @@ h6 {
     font-weight: 600;
 }
 
-.cstmrBX p {
+.cstmrBX > p {
     color: #fff !important;
     font-size: 12px;
     line-height: 14px;
@@ -346,9 +374,11 @@ h6 {
     height: 102px;
     width: 102px;
     object-fit: contain;
+    display: block;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .ImageWithContentMain .container>.mainSiteBtn a {
     margin: 10px auto;
 }
@@ -378,7 +408,7 @@ h6 {
     background: #F6F7F8;
 }
 
-.revBxTop img {
+.revBxTop>img {
     width: 40px;
     height: 30px;
     object-fit: contain;
@@ -415,7 +445,7 @@ h6 {
 .revBxBtm h4 {
     font-weight: 600;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0PX !important;
 }
 
@@ -637,7 +667,7 @@ h6 {
 .btrFrUbx h3 {
     font-weight: 600;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0PX !important;
     margin-top: 16px;
 }
@@ -660,38 +690,112 @@ h6 {
 .uSvSThemRow {
     max-width: 996px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .UsVsThemTableMAin {
-    /* overflow: scroll; */
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    align-items: center;
+    gap: 0;
 }
 
-.UsVsThemTableMAin table {
-    border-collapse: collapse;
+.UsVsThemCol {
+    width: 100%;
+    height: 100%;
 }
 
-.UsVsThemTableMAin table thead tr th {
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
+.UsVsThemCol img {
+    height: 34px;
+    width: 34px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.UsVsThemTableMAin:first-child .UsVsThemCol.col-2 {
+    border-radius: 20px 20px 0 0;
+}
+
+.UsVsThemTableMAin:last-child .UsVsThemCol.col-2 {
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.UsVsThemTableMAin:first-child .UsVsThemCol {
+    padding: 20px;
+}
+
+.UsVsThemTableMAin:first-child {
+    border: none;
+}
+
+.UsVsThemTableMAin:last-child {
+    border: none;
+}
+
+.UsVsThemCol h3 {
     font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #1B3854;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
 }
 
-.UsVsThemTableMAin table thead tr th:first-child {
-    width: 50%;
+.UsVsThemCol p {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: left;
 }
 
-.UsVsThemTableMAin table thead tr th {
-    width: 25%;
+.UsVsThemCol.col-2 h3 {
+    color: #fff;
 }
 
-.UsVsThemTableMAin table tbody {
+.UsVsThemCol.col-2 {
+    background: #1B3854;
+}
+
+.UsVsThemCol.col-1 {
+    padding: 24px 24px 24px 60px;
+}
+
+.UsVsThemCol.col-2,
+.UsVsThemCol.col-3 {
+    padding: 20px;
+}
+
+.UsVsThemTableMAin:first-child {
+    background: transparent;
+}
+
+.UsVsThemTableMAin:last-child {
+    background: transparent;
+}
+
+.UsVsThemTableMAin {
     border: 1px solid #1B3854;
-    padding: 60px;
-    border-radius: 20px;
+    border-top: none;
+    border-bottom-color: #ccc;
+    background: #F6F7F8;
+}
+
+.UsVsThemTableMAin:nth-child(2) .UsVsThemCol {
+    padding-top: 60px;
+}
+
+.UsVsThemTableMAin:nth-last-of-type(2) .UsVsThemCol {
+    padding-bottom: 60px;
+}
+
+.UsVsThemTableMAin:nth-child(2) {
+    border-top: 1px solid #1B3854;
+    border-radius: 20px 20px 0 0;
+}
+
+.UsVsThemTableMAin:nth-last-of-type(2) {
+    border-bottom: 1px solid #1B3854;
+    border-radius: 0px 0px 20px 20px;
 }
 
 /* UsVsThem */
@@ -801,3 +905,166 @@ h6 {
 }
 
 /* FAQmain */
+
+/* FooterNewsLetter */
+
+.FooterNewsLetter {
+    margin: 80px 0;
+    position: relative;
+    margin-top: -80px;
+}
+
+.FooterNewsLetter::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #F6F7F8;
+    position: absolute;
+    top: -45%;
+    left: 0;
+    z-index: -1;
+}
+
+.footerNewsHldr {
+    background: #1B3854;
+    border-radius: 20px;
+    padding: 80px 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.footerNewsHldr .headingHldrMainSite h2 {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.ftrNewsLtr {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ftrNewsLtr {
+    margin-top: 60px;
+}
+
+.ftrNewsLtrFrm {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.ftrNewsLtrFrm input {
+    border: 1px solid #FFFFFF;
+    height: 60px;
+    border-radius: 100px;
+    padding: 20px;
+    background: transparent;
+}
+
+.ftrNewsLtrFrm input,
+.ftrNewsLtrFrm input::placeholder,
+.ftrNewsLtrFrm button {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+}
+
+.ftrNewsLtrFrm input[type="text"] {
+    width: calc(38% - 15px);
+}
+
+.ftrNewsLtrFrm input[type="email"] {
+    width: calc(62% - 15px);
+}
+
+.ftrNewsLtrFrm button {
+    height: 60px;
+    border-radius: 100px;
+    padding: 10px 33px;
+    color: #1B3854;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    right: 0;
+    transition: all ease .5s;
+    border: 1px solid #fff;
+}
+
+.ftrNewsLtrFrm button:hover {
+    background: #1B3854;
+    color: #fff;
+}
+
+/* FooterNewsLetter */
+
+/* MainFooterSite */
+
+.footerTopSec {
+    padding: 20px 0;
+    background: #F6F7F8;
+}
+
+.mainFooterRow {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.footLogoMain {
+    width: 180px;
+    height: 57px;
+}
+
+.footLogoMain a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.footLogoMain a img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footLinksMain {
+    margin-left: auto;
+}
+
+.footLinksMain ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footLinksMain ul li a {
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    transition: all ease .5s;
+}
+
+.footLinksMain ul li a:hover {
+    color: #000;
+}
+
+.footerBtmSec {
+    background: #1B3854;
+    padding: 12px 0;
+}
+
+.footerBtmSec .CopyText {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+}
+
+/* MainFooterSite */

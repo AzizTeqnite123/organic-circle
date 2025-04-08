@@ -1,15 +1,14 @@
 const ReviewSlider = new Swiper(".ReviewSlider", {
     slidesPerView: 3,
     spaceBetween: 24,
-    centeredSlides: true,
     initialSlide: 1,
     loop: true,
     breakpoints: {
         150: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.3,
             spaceBetween: 10,
         },
-        576: {
+        575: {
             slidesPerView: 2,
             spaceBetween: 15,
         },

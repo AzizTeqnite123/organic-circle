@@ -1,0 +1,1060 @@
+@media only screen and (max-width : 1024px) {
+    /* PROD-PAGE-START */
+
+    .QualityDetBoxMain {
+        margin: 60px 0;
+    }
+
+    .QltyDetBx img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .QltyDetBx h4 {
+        font-size: 14px;
+    }
+
+    .DoubleImgDetMain {
+        margin: 60px 0;
+    }
+
+    .headingHldrMainSite h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .headingHldrMainSite p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .headingHldrMainSite {
+        margin-bottom: 30px;
+    }
+
+    .dbleImgHldr {
+        gap: 20px;
+    }
+
+    .dbleImgHldr img {
+        height: 400px;
+    }
+
+    .dbleImgCnt h6 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .dbleImgCnt p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .ImageWithContentMain {
+        margin: 60px 0;
+    }
+
+    .ImageWithContentMain.LightBgAdd,
+    .ImageWithContentMain.DarkBgAdd {
+        padding: 70px 0;
+    }
+
+    .imageWthCntHldr {
+        gap: 20px;
+    }
+
+    .ImgWthCntContent h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .mainSiteBtn {
+        margin-top: 40px;
+    }
+
+    .mainSiteBtn :is(a, button, input[type=submit]) {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .ImgWthCntImage {
+        height: 400px;
+    }
+
+    .reviewTestiMonialMain {
+        margin: 60px 0;
+    }
+
+    .revBxMn {
+        padding: 20px;
+    }
+
+    .revBxTop>img {
+        width: 35px;
+        height: 25px;
+    }
+
+    .revBxTop p {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .revBxRtng img {
+        height: 17px;
+        width: 17px;
+    }
+
+    .revBxBtm h4 {
+        font-size: 18px;
+    }
+
+    .revBxBtm img {
+        height: 12px;
+        width: 12px;
+    }
+
+    .FaqWithImgMain {
+        margin: 60px 0;
+    }
+
+    .faqWthImgFaq .accordion-item {
+        padding: 15px 0;
+    }
+
+    .faqWthImgFaq {
+        padding: 20px;
+    }
+
+    .faqWthImgHldr {
+        gap: 20px;
+    }
+
+    .faqWthImgFaq .accordion-item-header h5 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .faqWthImgFaq .accordion-item-header::after {
+        height: 14px;
+        width: 15px;
+    }
+
+    .faqWthImgImage {
+        height: 370px;
+    }
+
+    .CustmrBxHdlr,
+    .qltyLogoHldr {
+        margin-top: 30px;
+    }
+
+    .cstmrBX {
+        padding: 15px 10px;
+    }
+
+    .cstmrBX h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cstmrBX>p {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .qltyLogoHldr img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .mainSiteBtn p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .StepsBetter {
+        margin: 60px 0;
+    }
+
+    .stpsBetrHldr {
+        gap: 20px;
+    }
+
+    .stpBtrImg {
+        height: 260px;
+    }
+
+    .stpBtrCnt {
+        padding: 20px;
+    }
+
+    .stpBtrCnt h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .stpBtrCnt h4 span {
+        font-size: 18px;
+    }
+
+    .stpBtrCnt p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .ImgWthCntContent .headTopTxt {
+        font-size: 18px;
+    }
+
+    .btrFrYuHldr {
+        gap: 20px;
+    }
+
+    .btrFrUbx {
+        padding: 20px;
+    }
+
+    .btrFrUbx img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .btrFrUbx h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .btrFrUbx p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .BetterForYou {
+        margin: 60px 0;
+    }
+
+    .UsVsThem {
+        margin: 60px 0;
+    }
+
+    .UsVsThemTableMAin:first-child .UsVsThemCol {
+        padding: 15px;
+    }
+
+    .UsVsThemCol h3 {
+        font-size: 18px;
+    }
+
+    .UsVsThemTableMAin:nth-child(2) .UsVsThemCol {
+        padding-top: 40px;
+    }
+
+    .UsVsThemCol.col-1 {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .UsVsThemTableMAin:nth-last-of-type(2) .UsVsThemCol {
+        padding-bottom: 40px;
+    }
+
+    .UsVsThemCol img {
+        height: 26px;
+        width: 26px;
+    }
+
+    .FAQmain {
+        margin: 60px 0;
+    }
+
+    .FAQmainFaq .accordion-item-header h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .ImgWthCntImage.MdmImg {
+        height: 450px;
+    }
+
+    .ImgWthCntContent ul {
+        gap: 10px;
+    }
+
+    .ImgWthCntContent>p {
+        margin-top: 15px;
+    }
+
+    .FooterNewsLetter {
+        margin: 60px 0;
+        margin-top: -60px;
+    }
+
+    .footerNewsHldr {
+        padding: 60px 30px;
+    }
+
+    .ftrNewsLtr {
+        margin-top: 40px;
+    }
+
+    .ftrNewsLtrFrm input,
+    .ftrNewsLtrFrm button {
+        height: 45px;
+    }
+
+    .ftrNewsLtrFrm input,
+    .ftrNewsLtrFrm input::placeholder,
+    .ftrNewsLtrFrm button {
+        font-size: 16px;
+    }
+
+    .ftrNewsLtrFrm button {
+        padding: 10px 24px;
+    }
+
+    .ftrNewsLtrFrm {
+        gap: 20px;
+    }
+
+    .footLogoMain {
+        width: 150px;
+        height: 45px;
+    }
+
+    .footLinksMain ul {
+        gap: 20px;
+    }
+
+    .footLinksMain ul li a {
+        font-size: 14px;
+    }
+
+    .ImgWthCntImage.LrgImg {
+        height: 500px;
+    }
+
+    /* PROD-PAGE-END */
+
+}
+
+@media only screen and (max-width : 768px) {
+    /* PROD-PAGE-START */
+
+    .QualityDetBoxMain {
+        margin: 40px 0;
+    }
+
+    .headingHldrMainSite h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .headingHldrMainSite p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .dbleImgHldr {
+        gap: 15px;
+    }
+
+    .dbleImgHldr img {
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .dbleImgCnt h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .dbleImgCnt p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .DoubleImgDetMain {
+        margin: 40px 0;
+    }
+
+    .ImageWithContentMain {
+        margin: 40px 0;
+    }
+
+    .ImageWithContentMain.LightBgAdd,
+    .ImageWithContentMain.DarkBgAdd {
+        padding: 50px 0;
+    }
+
+    .imageWthCntHldr {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .mainSiteBtn {
+        margin-top: 30px;
+    }
+
+    .ImgWthCntContent h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .ImgWthCntContent>p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mainSiteBtn :is(a, button, input[type=submit]) {
+        font-size: 14px;
+        padding: 10px 17px;
+    }
+
+    .ImgWthCntContent {
+        order: 2;
+    }
+
+    .ImgWthCntImage {
+        order: 1;
+    }
+
+    .ImgWthCntImage img {
+        border-radius: 10px;
+    }
+
+    .revBxMn {
+        border-radius: 10px;
+    }
+
+    .revBxBtm h4 {
+        font-size: 16px;
+    }
+
+    .faqWthImgHldr {
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .faqWthImgFaq .accordion-item-header h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .faqWthImgFaq {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .faqWthImgCont {
+        order: 2;
+    }
+
+    .faqWthImgFaq .accordion-item-header::after {
+        height: 12px;
+        width: 12px;
+    }
+
+    .faqWthImgFaq .accordion-item-body-content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .faqWthImgImage {
+        order: 1;
+    }
+
+    .faqWthImgImage {
+        height: 400px;
+    }
+
+    .faqWthImgImage img {
+        border-radius: 10px;
+    }
+
+    .stpsBetrHldr {
+        gap: 15px;
+    }
+
+    .stpBtrImg {
+        height: 220px;
+    }
+
+    .stpBtrImg img {
+        border-radius: 10px;
+    }
+
+    .stpBtrCnt {
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    .stpBtrCnt h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .stpBtrCnt h4 span {
+        font-size: 16px;
+    }
+
+    .stpBtrCnt p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+
+    .ImgWthCntContent .headTopTxt {
+        font-size: 16px;
+    }
+
+    .btrFrYuHldr {
+        gap: 15px;
+    }
+
+    .btrFrUbx {
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .btrFrUbx img {
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+    }
+
+    .btrFrUbx h3 {
+        font-size: 16px;
+    }
+
+    .BetterForYou {
+        margin: 40px 0;
+    }
+
+    .UsVsThem {
+        margin: 40px 0;
+    }
+
+    .UsVsThemTableMAin:nth-child(2) .UsVsThemCol {
+        padding-top: 20px;
+    }
+
+    .UsVsThemCol.col-1 {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .UsVsThemCol p {
+        font-size: 14px;
+    }
+
+    .UsVsThemCol img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .UsVsThemCol.col-2,
+    .UsVsThemCol.col-3 {
+        padding: 15px;
+    }
+
+    .UsVsThemCol h3 {
+        font-size: 14px;
+    }
+
+    .UsVsThemTableMAin:nth-last-of-type(2) .UsVsThemCol {
+        padding-bottom: 20px;
+    }
+
+    .UsVsThemTableMAin:first-child .UsVsThemCol.col-2,
+    .UsVsThemTableMAin:nth-child(2) {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .UsVsThemTableMAin:last-child .UsVsThemCol.col-2,
+    .UsVsThemTableMAin:nth-last-of-type(2) {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .FAQmainFaq .accordion-item-header h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .FAQmainFaq .accordion-item-body-content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .FAQmainFaq .accordion-item {
+        padding: 15px 0;
+    }
+
+    .FAQmain {
+        margin: 40px 0;
+    }
+
+    .FAQmainFaq .accordion-item-header::after {
+        height: 14px;
+        width: 14px;
+    }
+
+    .FooterNewsLetter {
+        margin: 40px 0;
+        margin-top: -40px;
+    }
+
+    .footerNewsHldr {
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+
+    .ImgWthCntImage.MdmImg {
+        height: 400px;
+    }
+
+    .ftrNewsLtrFrm {
+        gap: 15px;
+    }
+
+    .ftrNewsLtr {
+        margin-top: 30px;
+    }
+
+    .ftrNewsLtrFrm input,
+    .ftrNewsLtrFrm button {
+        height: 40px;
+    }
+
+    .ftrNewsLtrFrm input {
+        padding: 15px;
+    }
+
+    .ftrNewsLtrFrm input,
+    .ftrNewsLtrFrm input::placeholder,
+    .ftrNewsLtrFrm button {
+        font-size: 14px;
+    }
+
+    .mainFooterRow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footLinksMain {
+        margin-right: auto;
+    }
+
+    .footLogoMain {
+        width: 130px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerBtmSec .CopyText {
+        font-size: 12px;
+    }
+
+    .reviewTestiMonialMain {
+        margin: 40px 0;
+    }
+
+    .FaqWithImgMain {
+        margin: 40px 0;
+    }
+
+    .StepsBetter {
+        margin: 40px 0;
+    }
+
+    .footLinksMain ul {
+        justify-content: center;
+    }
+
+    .ImgWthCntImage.LrgImg {
+        height: 400px;
+    }
+
+    /* PROD-PAGE-END */
+}
+
+@media only screen and (max-width : 576px) {
+    /* PROD-PAGE-START */
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .QltyDetHldr {
+        padding: 20px 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .QltyDetBx img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .headingHldrMainSite h2 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .QualityDetBoxMain {
+        margin: 30px 0;
+    }
+
+    .QltyDetBx h4 {
+        font-size: 13px;
+    }
+
+    .headingHldrMainSite p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .headingHldrMainSite {
+        margin-bottom: 20px;
+    }
+
+    .dbleImgHldr {
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dbleImgHldr img {
+        height: 250px;
+    }
+
+    .dbleImgCnt h6 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .dbleImgCnt p {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 5px auto 0;
+    }
+
+    .DoubleImgDetMain {
+        margin: 30px 0;
+    }
+
+    .ImageWithContentMain {
+        margin: 30px 0;
+    }
+
+    .ImageWithContentMain.LightBgAdd,
+    .ImageWithContentMain.DarkBgAdd {
+        padding: 30px 0;
+    }
+
+    .ImgWthCntImage {
+        height: 250px;
+    }
+
+    .imageWthCntHldr {
+        gap: 15px;
+    }
+
+    .ImgWthCntContent h2 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .ImgWthCntContent>p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    .mainSiteBtn {
+        margin-top: 20px;
+    }
+
+    .mainSiteBtn :is(a, button, input[type=submit]) {
+        font-size: 13px;
+        line-height: 1.1;
+        padding: 10px 15px 10px;
+    }
+
+    .reviewTestiMonialMain {
+        margin: 30px 0;
+    }
+
+    .revBxTop>img {
+        width: 28px;
+        height: 20px;
+    }
+
+    .revBxTop p {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .revBxRtng img {
+        height: 13px;
+        width: 13px;
+    }
+
+    .revBxBtm h4 {
+        font-size: 14px;
+    }
+
+    .revBxBtm {
+        margin-top: 10px;
+    }
+
+    .FaqWithImgMain {
+        margin: 30px 0;
+    }
+
+    .faqWthImgImage {
+        height: 250px;
+    }
+
+    .faqWthImgFaq {
+        padding: 20px 15px;
+    }
+
+    .faqWthImgFaq .accordion-item-body-content p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .faqWthImgFaq .accordion-item-header h5 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .faqWthImgFaq .accordion-item {
+        padding: 10px 0;
+    }
+
+    .faqWthImgFaq .accordion-item-header::after {
+        height: 9px;
+        width: 9px;
+    }
+
+    .cstmrBX {
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+
+    .CustmrBxHdlr,
+    .qltyLogoHldr {
+        margin-top: 20px;
+        gap: 5px;
+    }
+
+    .cstmrBX h4 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .cstmrBX>p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .mainSiteBtn p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .qltyLogoHldr img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .StepsBetter {
+        margin: 30px 0;
+    }
+
+    .stpsBetrHldr {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .stpBtrImg {
+        height: 200px;
+    }
+
+    .stpBtrCnt {
+        padding: 15px 10px;
+        margin-top: 10px;
+    }
+
+    .stpBtrCnt p {
+        margin-top: 10px;
+    }
+
+    .ImgWthCntContent .headTopTxt {
+        font-size: 15px;
+    }
+
+    .BetterForYou {
+        margin: 30px 0;
+    }
+
+    .btrFrYuHldr {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btrFrUbx h3 {
+        font-size: 15px;
+    }
+
+    .btrFrUbx p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    .btrFrUbx img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .UsVsThem {
+        margin: 30px 0;
+    }
+
+    .UsVsThemTableMAin:nth-child(2) .UsVsThemCol {
+        padding-top: 15px;
+    }
+
+    .UsVsThemCol.col-1 {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .UsVsThemCol p {
+        font-size: 13px;
+    }
+
+    .UsVsThemTableMAin {
+        grid-template-columns: 40% 30% 30%;
+    }
+
+    .UsVsThemTableMAin:first-child .UsVsThemCol {
+        padding: 10px;
+    }
+
+    .UsVsThemCol.col-2,
+    .UsVsThemCol.col-3 {
+        padding: 10px;
+    }
+
+    .UsVsThemCol img {
+        height: 17px;
+        width: 17px;
+    }
+
+    .UsVsThemTableMAin:nth-last-of-type(2) .UsVsThemCol {
+        padding-bottom: 15px;
+    }
+
+    .UsVsThemCol h3 {
+        font-size: 13px;
+    }
+
+    .FAQmain {
+        margin: 30px 0;
+    }
+
+    .FAQmainFaq .accordion-item-header h5 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .FAQmainFaq .accordion-item-body-content p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .FAQmainFaq .accordion-item-body-content {
+        padding-top: 5px !important;
+    }
+
+    .FAQmainFaq .accordion-item {
+        padding: 10px 0;
+    }
+
+    .FAQmainFaq .accordion-item-header::after {
+        height: 12px;
+        width: 12px;
+    }
+
+    .ImgWthCntImage.MdmImg {
+        height: 250px;
+    }
+
+    .ImgWthCntContent ul li {
+        font-size: 13px;
+        padding-left: 24px;
+    }
+
+    .ImgWthCntContent ul li::after {
+        height: 14px;
+        width: 14px;
+    }
+
+    .ftrNewsLtrFrm {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .ftrNewsLtrFrm input[type="text"],
+    .ftrNewsLtrFrm input[type="email"] {
+        width: 100%;
+    }
+
+    .footerNewsHldr {
+        padding: 30px 15px;
+    }
+
+    .ftrNewsLtrFrm input,
+    .ftrNewsLtrFrm input::placeholder,
+    .ftrNewsLtrFrm button {
+        font-size: 12px;
+    }
+
+    .ftrNewsLtrFrm button {
+        position: relative;
+    }
+
+    .ftrNewsLtrFrm input,
+    .ftrNewsLtrFrm button {
+        height: 35px;
+    }
+
+    .footLinksMain ul {
+        gap: 5px 10px;
+    }
+
+    .footerBtmSec {
+        padding: 10px 0;
+    }
+
+    .footLinksMain ul li a {
+        font-size: 14px;
+    }
+
+    .mainFooterRow {
+        gap: 10px;
+    }
+
+    .footLogoMain {
+        width: 120px;
+        height: 35px;
+    }
+
+    .ImgWthCntImage.LrgImg {
+        height: 250px;
+    }
+
+    /* PROD-PAGE-END */
+}
